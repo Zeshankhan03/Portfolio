@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Zeeshan Khan | Cybersecurity Analyst</title>
+<meta name="description" content="Cybersecurity analyst. CEH and ISC2 CC certified. SOC deployment, network deployment and vulnerability assessment for clients worldwide.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#eef2f4; --surface:#ffffff; --ink:#15232d; --muted:#51616d; --line:#cfd9de;
+  --accent:#0b6b78; --accent-ink:#ffffff; --flag:#b4491f;
+  --head:"Bricolage Grotesque","Segoe UI",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",Arial,sans-serif;
+  --mono:"JetBrains Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#10191f; --surface:#17232b; --ink:#e6eef2; --muted:#9db0bb; --line:#2a3b46;
+    --accent:#4cc3d3; --accent-ink:#0b1a20; --flag:#f0935f;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:1rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--body)}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--flag);outline-offset:3px}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.25rem}
+header.top{padding:1.1rem 0;border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+nav a{margin-left:1.2rem;text-decoration:none;color:var(--muted);font-weight:600}
+nav a:hover{color:var(--accent)}
+.hero{padding:3rem 0 3.5rem;max-width:44rem}
+h1{font:700 clamp(2.3rem,5.5vw,3.8rem)/1.05 var(--head);margin:0 0 1.2rem;letter-spacing:-.02em}
+.lead{font-size:1.25rem;line-height:1.6;max-width:40rem;margin:0 0 1rem}
+.more{max-width:40rem;color:var(--muted);margin:0}
+.id{display:flex;align-items:center;gap:1.2rem;margin-bottom:2rem}
+.avatar{position:relative;width:6.5rem;height:6.5rem;flex:none;border-radius:50%;overflow:hidden;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font:700 1.9rem var(--head);box-shadow:0 0 0 3px var(--bg),0 0 0 5px var(--line)}
+.avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.name{font:700 1.6rem/1.2 var(--head);margin:0}
+.role{color:var(--muted);margin:.2rem 0 0}
+.top nav{margin-left:auto}
+.btns{display:flex;gap:.8rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.75rem 1.3rem;border-radius:.4rem;font-weight:600;text-decoration:none;border:2px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--accent)}
+.btn:hover{filter:brightness(1.1)}
+section{padding:3rem 0;border-top:1px solid var(--line)}
+h2{font:700 1.9rem/1.2 var(--head);margin:0 0 1.5rem;letter-spacing:-.01em}
+h3{font:600 1.2rem/1.3 var(--head);margin:0 0 .4rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1.2rem}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:.4rem;padding:1.3rem}
+.card p{margin:.3rem 0 .8rem}
+.card .links{display:flex;gap:1.2rem;flex-wrap:wrap;margin:1rem 0 0;font-weight:600}
+.more-btn{background:transparent;font:600 1rem var(--body);cursor:pointer;margin-top:1.2rem}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin:0;padding:0;list-style:none}
+.tags li{font-size:.85rem;padding:.15rem .6rem;border:1px solid var(--line);border-radius:2rem;color:var(--muted)}
+.job{display:grid;grid-template-columns:11rem 1fr;gap:1rem;padding:1.1rem 0;border-bottom:1px solid var(--line)}
+.job:last-child{border-bottom:0}
+.when{color:var(--muted);font-size:.95rem}
+.job p{margin:.2rem 0 0}
+.certs{list-style:none;margin:0;padding:0}
+.certs li{padding:.7rem 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.certs li:last-child{border-bottom:0}
+.certs small{color:var(--muted)}
+footer{padding:2rem 0 3rem;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+@media (max-width:760px){
+  .hero{padding:2rem 0}
+  .job{grid-template-columns:1fr;gap:.2rem}
+  nav a{margin:0 1rem 0 0}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <nav aria-label="Sections">
+      <a href="#services">Services</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#certs">Certifications</a><a href="#trainings">Trainings</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="wrap">
+
+  <div class="hero">
+    <div class="id">
+      <div class="avatar" aria-hidden="false">ZK<img src="photo.jpg" alt="Portrait of Muhammad Zeeshan Khan" onerror="this.remove()"></div>
+      <div>
+        <p class="name">Muhammad Zeeshan Khan</p>
+        <p class="role">Cybersecurity Analyst</p>
+      </div>
+    </div>
+    <h1>Security operations that see threats before they land.</h1>
+    <p class="lead">CEH-certified Analyst who turns noisy networks into environments you can see, trust & defend. I speak both tech and business, thanks to international IT Inside Sales experience. Whether you need full security and network infrastructure or just monitoring, I make sure it’s deployed, hardened and monitored, backed by vulnerability assessments, with tools that fit your budget. Need a one-time project or weekly or monthly monitoring? Let’s talk!</p>
+    <p class="lead">Remote, worldwide and ready when you are.</p>
+  </div>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>SOC deployment</h3>
+        <p>Design, deploy and harden your security monitoring stack: SIEM, endpoint agents, log collection and alert rules, so threats are detected and acted on.</p>
+        <ul class="tags"><li>SIEM</li><li>Endpoint detection</li><li>Log collection</li><li>Alert rules</li></ul>
+      </div>
+      <div class="card">
+        <h3>Network deployment</h3>
+        <p>Plan, deploy and harden secure networks with firewall rules, segmentation and traffic monitoring.</p>
+        <ul class="tags"><li>Firewalls</li><li>Segmentation</li><li>Hardening</li><li>Traffic monitoring</li></ul>
+      </div>
+      <div class="card">
+        <h3>NOC and infrastructure monitoring</h3>
+        <p>Keep your networks and infrastructure visible, with uptime and performance monitoring and alerts the moment something goes wrong.</p>
+        <ul class="tags"><li>Uptime</li><li>Performance</li><li>Alerting</li></ul>
+      </div>
+      <div class="card">
+        <h3>Vulnerability assessment (VA)</h3>
+        <p>Scan networks and hosts, validate the findings, and receive a prioritised report that explains how to fix each risk.</p>
+        <ul class="tags"><li>Network scanning</li><li>Risk ranking</li><li>Reporting</li></ul>
+      </div>
+      <div class="card">
+        <h3>Security recommendations</h3>
+        <p>Straight answers on what to fix first: a review of your setup with clear, prioritised recommendations that fit your budget.</p>
+        <ul class="tags"><li>Security review</li><li>Action plan</li><li>Open-source or paid tools</li></ul>
+      </div>
+      <div class="card">
+        <h3>Ongoing monitoring and updates</h3>
+        <p>Stay protected with regular monitoring, updates and reporting, delivered weekly or monthly, or as a one-time project.</p>
+        <ul class="tags"><li>Weekly</li><li>Monthly</li><li>One-time</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid" id="project-grid">
+      <div class="card">
+        <h3>SecurityLog Analysis & Incident Triage Pipeline</h3>
+        <p>A Python pipeline that parses SSH authentication logs, flags source IPs with repeated failed logins as potential brute-force attacks, grades each alert as medium, high or critical, and writes a JSON alert file a dashboard can read. The threshold is configurable to suit different security policies. Built and tested on simulated logs.</p>
+        <ul class="tags"><li>Python</li><li>Log analysis</li><li>Regex</li><li>Incident triage</li><li>Automated alerting</li></ul>
+        <p class="links"><a href="https://github.com/Zeshankhan03/Security-Log-Analysis-and-Incident-Triage-Pipeline" target="_blank" rel="noopener">View on GitHub</a><a href="https://github.com/Zeshankhan03/Security-Log-Analysis-and-Incident-Triage-Pipeline" target="_blank" rel="noopener">View on GitHub</a></p>
+      </div>
+      <div class="card">
+        <h3>Data spelunking with Splunk</h3>
+        <p>Deployed Splunk for real-time monitoring and analysis alongside pfSense for firewalling and routing, Security Onion for network security monitoring, and Kali Linux and Parrot Security OS for penetration testing. Presented to university faculty.</p>
+        <ul class="tags"><li>Splunk</li><li>pfSense</li><li>Security Onion</li><li>Kali Linux</li><li>Parrot OS</li></ul>
+        <p class="links"><a href="https://github.com/Zeshankhan03/Data-Spelunking-using-Splunk-POC-" target="_blank" rel="noopener">View on GitHub</a></p>
+      </div>
+      <div class="card">
+        <h3>Vulnerability Scanning</h3>
+        <p>A university team project that deployed Nessus to scan systems and networks, analyse the results, prioritise high-risk vulnerabilities and share recommendations with peers. Presented to faculty.</p>
+        <ul class="tags"><li>Nessus</li><li>Vulnerability assessment</li><li>Risk prioritisation</li></ul>
+        <p class="links"><a href="https://github.com/Zeshankhan03/Nessus-Vulnerability-Scanner-Project-POC-" target="_blank" rel="noopener">View on GitHub</a></p>
+      </div>
+      <div class="card">
+        <h3>Multi-purpose AI Password Analysis Tool</h3>
+        <p>Combines AI with traditional analysis to assess password strength and crack passwords, integrating with tools like Hashcat, to help protect accounts from online threats.</p>
+        <ul class="tags"><li>AI</li><li>Hashcat</li><li>Password security</li></ul>
+        <p class="links"><a href="https://github.com/Zeshankhan03/Multi-Purpose-AI-Password-Analysis-Tool" target="_blank" rel="noopener">View on GitHub</a></p>
+      </div>
+      <div class="card">
+        <h3>Network Enumeration and Monitoring tool</h3>
+        <p>A Python tool that finds live hosts on an IP or subnet, scans ports, enumerates services, looks up IP geolocation, enumerates users over SMB, runs a simulated vulnerability check by service, and logs every result to CSV.</p>
+        <ul class="tags"><li>Python</li><li>Port scanning</li><li>Service enumeration</li><li>SMB</li><li>CSV logging</li></ul>
+        <p class="links"><a href="https://github.com/Zeshankhan03/Network-Enumeration-and-Monitoring-Tool" target="_blank" rel="noopener">View on GitHub</a></p>
+      </div>
+      <div class="card">
+        <h3>Email Header Analysis</h3>
+        <p>A lab that examines email headers (sender, recipient, date and routing details) to judge whether a message is trustworthy and to spot spam or phishing, using MX tools to check mail server configuration. The full lab write-up is in the repository.</p>
+        <ul class="tags"><li>Email analysis</li><li>Phishing</li><li>Header analysis</li></ul>
+        <p class="links"><a href="https://github.com/Zeshankhan03/Email-Header-Analysis" target="_blank" rel="noopener">View on GitHub</a></p>
+      </div>
+      <div class="card extra">
+        <h3>Network Scanning Tool</h3>
+        <p>A Python port scanner built with sockets for an Operating Systems course. Enter a domain and it reports the open ports. Made for educational use.</p>
+        <ul class="tags"><li>Python</li><li>Sockets</li><li>Port scanning</li></ul>
+        <p class="links"><a href="https://github.com/Zeshankhan03/NetworkScanningTool" target="_blank" rel="noopener">View on GitHub</a></p>
+      </div>
+      <div class="card extra">
+        <h3>Research: Preloaded Malware on Android TV boxes</h3>
+        <p>Research into malware preinstalled on Android TV boxes sold through major international online marketplaces, and the threat it poses to consumers and cybersecurity. The paper is in progress and not yet published.</p>
+        <ul class="tags"><li>Malware research</li><li>Android</li><li>Consumer security</li></ul>
+        <p class="links"><a href="https://github.com/Zeshankhan03/Preloaded-Malware-on-Android-TVBoxes-A-Threat-to-Consumer-Security-and-Cybersecurity-Infrastructure" target="_blank" rel="noopener">View on GitHub</a></p>
+      </div>
+      <div class="card extra">
+        <h3>Digital forensics</h3>
+        <p>Investigated disk images with Autopsy to recover and review evidence.</p>
+        <ul class="tags"><li>Autopsy</li><li>Forensics</li></ul>
+      </div>
+      <div class="card extra">
+        <h3>Face & Eye Detection Tool</h3>
+        <p>A Python and OpenCV tool that detects faces and eyes using cascade classifiers. The repository includes the presentation and report explaining the algorithm.</p>
+        <ul class="tags"><li>Python</li><li>OpenCV</li><li>Computer vision</li></ul>
+        <p class="links"><a href="https://github.com/Zeshankhan03/FaceandEyeDetectionTool" target="_blank" rel="noopener">View on GitHub</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="job">
+      <div class="when">Oct 2025 – Oct 2026</div>
+      <div><h3>Cybersecurity Analyst, Inkozan</h3><p>Worked at a cybersecurity job marketplace.</p></div>
+    </div>
+    <div class="job">
+      <div class="when">Sep 2024 – present</div>
+      <div><h3>Co-Founder, CyberAlphas</h3><p>Co-founded a cybersecurity company.</p></div>
+    </div>
+    <div class="job">
+      <div class="when">2023 – present</div>
+      <div><h3>Inside Sales Representative, Axelliant LLC</h3><p>Support enterprise and government customers with quotations, orders,licensing and renewals for IT/Security vendors including Cisco, Fortinet, Palo Alto, HP, Lenovo, Watchguard and Dell.</p></div>
+    </div>
+    <div class="job">
+      <div class="when">2021 – 2024</div>
+      <div><h3>BS Cybersecurity, Riphah International University, Pakistan</h3></div>
+    </div>
+  </section>
+
+  <section id="certs">
+    <h2>Certifications</h2>
+    <ul class="certs">
+      <li><span>Certified Ethical Hacker (CEH)<br><small>EC-Council, 2026 (To verify this certification, visit the EC-Council verification portal and enter Certificate ID.)</small><br><small>Certificate ID: ECC1609538724</small></span><a href="https://aspen.eccouncil.org/Verify" target="_blank" rel="noopener">Verify</a></li>
+      <li><span>Certified in Cybersecurity (CC)<br><small>ISC2</small></span><a href="https://www.coursera.org/account/accomplishments/specialization/FCLAC4DUR96X" target="_blank" rel="noopener">Verify</a></li>
+      <li><span>Cyber Threat Intelligence 101<br><small>arcX Foundation Level Threat Intelligence Analyst, 2023</small></span><a href="https://arcx.io/verify-certificate?id=4ec3b696f1a9d779617fa7c48d1ca0e1929fa6b1&amp;k=3fd96ebc86a04426a320d4c6cd57b0c7" target="_blank" rel="noopener">Verify</a></li>
+      <li><span>Cybersecurity Certificate<br><small>Google</small></span><a href="https://www.coursera.org/account/accomplishments/professional-cert/4KAQA9G572JD" target="_blank" rel="noopener">Verify</a></li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Let’s lock down your environment.</h2>
+    <p>Contact me using any of the links below, tell me what you need, and I’ll reply with a plan.</p>
+    <div class="btns">
+      <a class="btn primary" href="mailto:Zeshankhan1996@hotmail.com">Email me</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/mzeeshankhan03" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="https://github.com/Zeshankhan03" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Muhammad Zeeshan Khan, Pakistan.</div>
+</footer>
+
+<script>
+(function(){
+  var grid=document.getElementById('project-grid');
+  if(!grid){return;}
+  var extra=grid.querySelectorAll('.card.extra');
+  if(!extra.length){return;}
+  var total=grid.querySelectorAll('.card').length;
+  var btn=document.createElement('button');
+  btn.type='button';
+  btn.className='btn ghost more-btn';
+  btn.setAttribute('aria-expanded','false');
+  btn.textContent='Show all '+total+' projects';
+  function setHidden(h){
+    for(var i=0;i<extra.length;i++){extra[i].hidden=h;}
+    btn.setAttribute('aria-expanded',h?'false':'true');
+    btn.textContent=h?'Show all '+total+' projects':'Show fewer projects';
+  }
+  btn.addEventListener('click',function(){setHidden(btn.getAttribute('aria-expanded')==='true');});
+  grid.parentNode.insertBefore(btn,grid.nextSibling);
+  setHidden(true);
+})();
+</script>
+
+</body>
+</html>
